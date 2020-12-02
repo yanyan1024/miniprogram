@@ -1,0 +1,9 @@
+<!--compentents/w-control/w-control.wxml-->
+<view class="w-control">
+  <block wx:for="{{title}}" wx:key="{{index}}">
+    <view class="item {{currentIndex == index ? 'active':''}}"
+     bindtap="handleItemClick"
+     data-index="{{index}}"
+     >{{item}}</view>
+  </block>
+</view>

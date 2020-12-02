@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-cpn":"/compentents/my-cpn/my-cpn",
+    "w-control":"/compentents/w-control/w-control"
+  }
+}

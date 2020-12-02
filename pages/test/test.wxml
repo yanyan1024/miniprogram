@@ -1,0 +1,4 @@
+<!--pages/test/test.wxml-->
+<view>test</view>
+<view wx:for="{{['a','b','c']}}">{{item}}</view>
+<view wx:for="{{9}}">{{item}}*{{data}}</view>

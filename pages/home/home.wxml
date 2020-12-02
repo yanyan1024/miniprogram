@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<!-- <view>{{message}}</view>
+<view>{{firstname + ' ' + lastname}}</view>
+<view>{{age > 20? '成年人':'未成年人'}}</view>
+<view>时间:{{nowtime}}</view>
+<button size="mini" bindtap="handleSwitchColor">改变颜色</button>
+<view class='box {{isActive?"active":""}}' >哈哈哈</view> -->
+
+<!-- <my-cpn title="haha" titleclass="red"></my-cpn>
+<my-cpn title="heihei" titleclass="green"></my-cpn>
+<my-cpn titleclass="blue"></my-cpn> -->
+<!--自定义组件练习-->
+<w-control title='{{["精选","流行","新款"]}}' bind:itemclick="handleclick"></w-control>
+
+
